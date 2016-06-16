@@ -1,0 +1,59 @@
+<header id="header" role="banner" class="clearfix">
+    <div class="logo-wrapper">
+        <a ui-sref="index" title="Home" rel="home" id="logo">
+            <img src="images/avooil_logo.png" alt="Home" style="width: 223px;">
+        </a>
+        <div id="name-and-slogan">
+            <!--<div id="site-slogan">premium products</div>-->
+        </div><!-- /#name-and-slogan -->
+    </div>
+
+    <div class="region region-menu">
+        <div id="block-superfish-1" class="block block-superfish block-odd">
+
+            <div class="content">
+                <ul id="superfish-1" class="menu sf-menu sf-main-menu sf-horizontal sf-style-none sf-total-items-5 sf-parent-items-1 sf-single-items-4 superfish-processed sf-js-enabled">
+                    <li class="first odd sf-item-1 sf-depth-1 sf-no-children">
+                        <a ui-sref="home" class="sf-depth-1">Main</a>
+                    </li>
+                    <li class="middle even sf-item-2 sf-depth-1 sf-no-children">
+                        <a ui-sref="aboutus" class="sf-depth-1">About Us</a>
+                    </li>
+                    <!--<li class="middle odd sf-item-3 sf-depth-1 sf-total-children-3 sf-parent-children-0 sf-single-children-3 menuparent menuparentnew">
+                        <a href="javascript:void(0);" title="" class="sf-depth-1 menuparent menuparentnew">Products</a>
+                        <ul class="sub-menu submenunew" style="float: none; width: 12em;">
+                            <li id="menu-3768-1" class="first odd sf-item-1 sf-depth-2 sf-no-children" style="white-space: normal; float: left; width: 100%;">
+                                <a ui-sref="products({id:1})" class="sf-depth-2" style="float: none; width: auto;">Products 1</a>
+                            </li>
+                            <li id="menu-3769-1" class="middle even sf-item-2 sf-depth-2 sf-no-children" style="white-space: normal; float: left; width: 100%;">
+                                <a ui-sref="products({id:2})" title="" class="sf-depth-2" style="float: none; width: auto;">Products 2</a>
+                            </li>
+                            <li id="menu-3767-1" class="last odd sf-item-3 sf-depth-2 sf-no-children" style="white-space: normal; float: left; width: 100%;">
+                                <a ui-sref="products({id:3})"  title="" class="sf-depth-2" style="float: none; width: auto;">Products 3</a>
+                            </li>
+                        </ul>
+                    </li>-->
+                    <li class="middle even sf-item-4 sf-depth-1 sf-no-children">
+                        <a ui-sref="products" class="sf-depth-1">Products</a>
+                    </li>
+                    <li class="middle even sf-item-4 sf-depth-1 sf-no-children">
+                        <a ui-sref="blog" class="sf-depth-1">Blog</a>
+                    </li>
+                    <li class="last odd sf-item-5 sf-depth-1 sf-no-children">
+                        <a ui-sref="contactus" class="sf-depth-1">Contacts</a>
+                    </li>
+                </ul>
+                <select class="select-menu" style="display: inline-block;">
+                    <option value="home" ng-click="gotolink('home')" ng-selected="currentpage == 'home'">Main</option>
+                    <option value="aboutus" ng-click="gotolink('aboutus')" ng-selected="currentpage == 'aboutus'">About Us</option>
+                    <option value="products" ng-click="gotolink('products')" ng-selected="currentpage == 'products'">Products</option>
+                    <!--<option value="http://livedemo00.template-help.com/drupal_48612/?q=portfolio" selected="selected">Products</option>
+                    <option value="http://livedemo00.template-help.com/drupal_48612/?q=portfolio-2">�Products 2</option>
+                    <option value="http://livedemo00.template-help.com/drupal_48612/?q=portfolio-3">�Products 3</option>
+                    <option value="http://livedemo00.template-help.com/drupal_48612/?q=portfolio-4">�Products 4</option>-->
+                    <option value="blog" ng-click="gotolink('blog')" ng-selected="currentpage == 'blog'">Blog</option>
+                    <option value="contactus" ng-click="gotolink('contactus')" ng-selected="currentpage == 'contactus'">Contacts</option>
+                </select>
+            </div><!-- /.content -->
+        </div><!-- /.block -->  </div>
+</header>

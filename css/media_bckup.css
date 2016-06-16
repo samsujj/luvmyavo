@@ -1,0 +1,349 @@
+.switcher{
+    display:none;
+}
+
+@media (min-width: 1300px) {
+    #page-wrapper{
+        width:1222px;
+    }
+
+    .separator{
+        margin:0 -45px 22px;
+        padding-top:62px;
+    }
+
+    #block-views-buy-organic-olive-oil-block h3{
+        font-size:45px;
+        line-height:55px;
+        padding-top:12px;
+        width: 638px;
+    }
+
+    #flexslider-1 .flex-direction-nav a{
+        margin-top:0;
+        top:254px;
+    }
+
+    .region-header-bottom:before{
+        background:url(../images/ribbon-left.png) 0 0 no-repeat;
+        left:-66px;
+        width:66px;
+    }
+
+    .region-header-bottom:after{
+        background:url(../images/ribbon-right.png) 0 0 no-repeat;
+        right:-66px;
+        width:66px;
+    }
+
+    #block-views-welcome-message-block {
+        padding: 51px 61px 58px;
+    }
+
+    .block.banner {
+        margin: 0 -45px;
+        padding: 43px 144px 44px;
+    }
+}
+
+@media (max-width: 995px) {
+    body#body {
+        min-width:300px;
+    }
+
+    #page-wrapper{
+        width:768px;
+    }
+
+    #comment-form .form-text,
+    #user-login .form-text,
+    #contact-site-form input.form-text,
+    .search-form .form-text {
+        width:200px;
+    }
+
+    .page-page-404 .panel-col-first{
+        font-size:220px;
+    }
+
+    .switcher{
+        display:inline-block;
+    }
+
+    .logo-wrapper{
+        margin-bottom:40px;
+    }
+
+    .region-header{
+        padding-top:40px;
+    }
+
+    #block-views-buy-organic-olive-oil-block {
+        margin-bottom: 40px;
+        padding: 0 10px;
+    }
+
+    #block-views-buy-organic-olive-oil-block h3{
+        font-size:35px;
+        line-height:43px;
+        width: 364px;
+    }
+    #block-views-buy-organic-olive-oil-block > .content {
+        width: 364px;
+    }
+    #block-views-buy-organic-olive-oil-block .views-row {
+        width: 110px;
+    }
+
+    .region-header-bottom{
+        height:auto;
+    }
+    .region-header-bottom:before,
+    .region-header-bottom:after{
+        display:none;
+    }
+
+    .block.hero-unit{
+        font-size:50px;
+        line-height:50px;
+        padding:20px;
+    }
+
+    .separator-bottom{
+        margin-bottom:40px !important;
+    }
+
+    #main-wrapper{
+        padding:40px 0;
+    }
+
+    #footer{
+        padding:40px 0 60px;
+    }
+
+    .block.banner{
+        font-size:32px;
+        line-height:42px;
+    }
+
+    .block.banner .text{
+        width:400px;
+    }
+
+    #block-views-our-history-block .views-field-title{
+        margin-right:10px;
+    }
+
+    .filter-help{
+        float:none;
+        margin-bottom:15px;
+    }
+}
+
+@media (max-width: 767px) {
+    .comment-wrapper {
+        overflow: visible;
+    }
+
+    .user-picture {
+        margin-bottom: 12px;
+    }
+
+    #comment-form .form-text,
+    #user-login .form-text,
+    #contact-site-form input.form-text,
+    .search-form .form-text,
+    #block-search-form.main-search .form-text, #search-block-form.main-search .container-inline .form-text {
+        width: 100%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    #block-search-form .container-inline .form-item, #search-block-form .container-inline .form-item {
+        width:100%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    #forum td.created, #forum td.posts, #forum td.topics, #forum td.last-reply, #forum td.replies, #forum td.pager {
+        white-space:normal;
+        font-size: 11px;
+    }
+
+    .addthis_button_tweet.at300b {
+        height:35px;
+    }
+    .field-type-addthis {margin-bottom:20px;}
+
+
+    #superfish-1 {display:none;}
+
+    .select-menu {
+        display:block !important;
+        width:100%;
+    }
+
+
+    .node-teaser .field-type-image, .node-employee .field-type-image {
+        float:none;
+        margin:0 0px 20px 0;
+        width: auto;
+    }
+
+
+    .panel-pane.error-page .pane-content span.err {
+        float:none;
+        text-align:center;
+        display:block;
+    }
+
+    .panel-pane.error-page .pane-content .extra {
+        background:none;
+        padding-left:0px;
+        display:block;
+        text-align:center;
+        border-top:1px solid #4A4A4A;
+    }
+    .panel-pane.error-page .pane-content .err-body {
+        width:100%;
+    }
+    #block-search-form .container-inline, #search-block-form .container-inline {display:block;}
+
+    .page-page-404 #search-block-form {width:300px;}
+
+
+    /*.sticky-table td,
+    .sticky-table th {
+        font-size: 9px;
+    }
+
+    .views-field-field-portfolio-image {
+        pointer-events:none;
+    }*/
+
+    .content ul.pager {
+        margin-bottom: 50px;
+    }
+
+    .panel-2col .panel-col-first,
+    .panel-2col .panel-col-last{
+        float:none;
+        width:100%;
+    }
+
+    .page-page-404 .panel-col-first{
+        font-size:170px;
+        line-height:170px;
+        text-align:left;
+    }
+
+
+    #backtotop{
+        display:none !important;
+    }
+
+    #page-wrapper{
+        width:440px;
+    }
+
+    .region-menu{
+        padding:0 15px;
+    }
+
+    #block-views-buy-organic-olive-oil-block h3{
+        float:none;
+        margin:0 0 30px;
+        text-align:center;
+        width:auto;
+    }
+
+    #block-views-buy-organic-olive-oil-block > .content{
+        float:none;
+        text-align:center;
+        width:auto;
+    }
+
+    #block-views-buy-organic-olive-oil-block .views-row{
+        float:none;
+        display:inline-block;
+    }
+
+    .separator{
+        margin-left:-15px;
+        margin-right:-15px;
+    }
+
+    .block.banner{
+        margin-left:-15px;
+        margin-right:-15px;
+        text-align:center;
+    }
+
+    .block.banner .text{
+        float:none;
+        margin-bottom:30px;
+        text-align:center;
+        width:auto;
+    }
+    .block.banner .link{
+        float:none;
+        margin-top:0;
+    }
+
+    .submitted,
+    .comment_count{
+        float:none;
+    }
+}
+
+@media (max-width: 479px) {
+    #comments .comment .comment-wrapper{
+        overflow:visible;
+    }
+
+    #comments .indented {
+        margin-left: 0;
+    }
+
+    #page-wrapper{
+        width:320px;
+    }
+
+    #block-views-buy-organic-olive-oil-block h3{
+        font-size:30px;
+        line-height:36px;
+    }
+
+    #block-views-buy-organic-olive-oil-block .views-row {
+        width: 85px;
+    }
+
+    .block.hero-unit{
+        font-size:40px;
+        line-height:45px;
+    }
+
+    #block-views-welcome-message-block{
+        padding:30px;
+    }
+
+    .block.banner .link a{
+        padding:24px;
+    }
+
+    #block-views-recent-posts-block .views-field-body{
+        clear:both;
+        padding-left:0;
+        padding-top:10px;
+    }
+
+    .page-tracker #main-wrapper .content{
+        overflow-x:scroll;
+    }
+
+    .page-tracker #main-wrapper .content table.sticky-header{
+        display:none !important;
+    }
+}

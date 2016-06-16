@@ -1,0 +1,105 @@
+@media (min-width: 1300px) {
+	.container-12					{width: 1152px;}
+
+	.container-12 .grid-1			{width: 76px;}
+	.container-12 .grid-2			{width: 172px;}
+	.container-12 .grid-3			{width: 268px;}
+	.container-12 .grid-4			{width: 364px;}
+	.container-12 .grid-5			{width: 460px;}
+	.container-12 .grid-6			{width: 556px;}
+	.container-12 .grid-7			{width: 652px;}
+	.container-12 .grid-8			{width: 748px;}
+	.container-12 .grid-9			{width: 844px;}
+	.container-12 .grid-10			{width: 940px;}
+	.container-12 .grid-11			{width: 1036px;}
+	.container-12 .grid-12			{width: 1132px;}
+
+	/* Pref/Suf Styles */
+	.container-12 .prefix-1			{padding-left:96px;}
+	.container-12 .prefix-2			{padding-left:192px;}
+	.container-12 .prefix-3			{padding-left:288px;}
+	.container-12 .prefix-4			{padding-left:384px;}
+	.container-12 .prefix-5			{padding-left:480px;}
+	.container-12 .prefix-6			{padding-left:576px;}
+	.container-12 .prefix-7			{padding-left:672px;}
+	.container-12 .prefix-8			{padding-left:768px;}
+	.container-12 .prefix-9			{padding-left:864px;}
+	.container-12 .prefix-10		{padding-left:960px;}
+	.container-12 .prefix-11		{padding-left:1056px;}
+	
+	.container-12 .suffix-1			{padding-right:96px;}
+	.container-12 .suffix-2			{padding-right:192px;}
+	.container-12 .suffix-3			{padding-right:288px;}
+	.container-12 .suffix-4			{padding-right:384px;}
+	.container-12 .suffix-5			{padding-right:480px;}
+	.container-12 .suffix-6			{padding-right:576px;}
+	.container-12 .suffix-7			{padding-right:672px;}
+	.container-12 .suffix-8			{padding-right:768px;}
+	.container-12 .suffix-9			{padding-right:864px;}
+	.container-12 .suffix-10		{padding-right:960px;}
+	.container-12 .suffix-11		{padding-right:1056px;}
+}
+
+/* #Tablet (Portrait)
+================================================== */
+/* Note: Design for a width of 768px */
+@media (max-width: 995px) {
+	.container-12					{width: 768px;}
+
+	.container-12 .grid-1			{width: 44px;}
+	.container-12 .grid-2			{width: 108px;}
+	.container-12 .grid-3			{width: 172px;}
+	.container-12 .grid-4			{width: 236px;}
+	.container-12 .grid-5			{width: 300px;}
+	.container-12 .grid-6			{width: 364px;}
+	.container-12 .grid-7			{width: 428px;}
+	.container-12 .grid-8			{width: 492px;}
+	.container-12 .grid-9			{width: 556px;}
+	.container-12 .grid-10			{width: 620px;}
+	.container-12 .grid-11			{width: 684px;}
+	.container-12 .grid-12			{width: 748px;}
+
+	/* Pref/Suf Styles */
+	.container-12 .prefix-1			{padding-left:40px;}
+	.container-12 .prefix-2			{padding-left:80px;}
+	.container-12 .prefix-3			{padding-left:120px;}
+	.container-12 .prefix-4			{padding-left:160px;}
+	.container-12 .prefix-5			{padding-left:200px;}
+	.container-12 .prefix-6			{padding-left:240px;}
+	.container-12 .prefix-7			{padding-left:280px;}
+	.container-12 .prefix-8			{padding-left:320px;}
+	.container-12 .prefix-9			{padding-left:360px;}
+	.container-12 .prefix-10		{padding-left:400px;}
+	.container-12 .prefix-11		{padding-left:440px;}
+	
+	.container-12 .suffix-1			{padding-right:40px;}
+	.container-12 .suffix-2			{padding-right:80px;}
+	.container-12 .suffix-3			{padding-right:120px;}
+	.container-12 .suffix-4			{padding-right:160px;}
+	.container-12 .suffix-5			{padding-right:200px;}
+	.container-12 .suffix-6			{padding-right:240px;}
+	.container-12 .suffix-7			{padding-right:280px;}
+	.container-12 .suffix-8			{padding-right:320px;}
+	.container-12 .suffix-9			{padding-right:360px;}
+	.container-12 .suffix-10		{padding-right:400px;}
+	.container-12 .suffix-11		{padding-right:440px;}
+}
+
+
+/*  #Mobile (Portrait)
+================================================== */
+/* Note: Design for a width of 320px */
+
+@media (max-width: 767px) {
+	.container-12{width: auto; padding: 0 15px;}
+
+	[class*="grid-"]{margin: 0 0 30px; display: block; float: none;}
+	.grid-12, .omega{margin-bottom:0;}
+	.container-12 [class*="grid-"]{width: auto;}
+
+	/* Pref/Suf Styles */
+	.container-12 [class*="prefix-"]{padding-left:0px;}
+	.container-12 [class*="suffix-"]{padding-right:0px;}
+
+	.grid-last {margin-bottom: 0 !important;}
+}

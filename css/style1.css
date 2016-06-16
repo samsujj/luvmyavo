@@ -1,0 +1,25 @@
+.row{
+  margin: 0;
+}
+
+.homeblock1{
+  border: 1px solid #e8e7ba;
+  -webkit-box-sizing:border-box;
+  -webkit-box-sizing: border-box;
+  color: #b0b0b0;
+  line-height: 22px;
+}
+
+.homeblock1 h3{
+  color: #6d8e56;
+  font: 300 45px/45px 'Open Sans', sans-serif;
+  margin-bottom: 30px;
+}
+
+.homeblock1 h5{
+  margin-bottom: 16px;
+}
+
+.homeblock1 .views-field-body{
+  margin-bottom: 23px;
+}
